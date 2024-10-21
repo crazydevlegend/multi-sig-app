@@ -5,6 +5,7 @@
     <meta name="theme-color" content="#000000">
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/open-props/easings.min.css" />
     <title><%= htmlWebpackPlugin.options.PAGE_TITLE %></title>
     <script type="text/javascript" src="env-config.js"></script>
     <style>
@@ -50,7 +51,7 @@
         --bg-input-error: #48393f;
         --bg-inverse: rgba(78, 78, 78, 0.66);
         --bg-menu: #26272c;
-        --bg-page: #26272c;
+        --bg-page: #000000;
         --bg-table: #3b3d3f;
         --bg-tabs: #38393f;
         --bg-toggle: #58595f;
@@ -69,6 +70,7 @@
         /* --color-table-foot: rgba(254, 240, 240, 0.66); */
         /* --color-table-head: rgba(254, 240, 240, 0.8); */
         --color-text: rgba(244, 242, 240, 0.8);
+        --color-text-hover: rgb(255, 255, 255);
         --opacity-gray: 0.1;
       }
 
@@ -78,7 +80,7 @@
         --bg-input-error: #fff6f6;
         --bg-inverse: rgba(244, 242, 240, 0.91);
         --bg-menu: #ffffff;
-        --bg-page: #f5f3f1;
+        --bg-page: #ffffff;
         --bg-table: #ffffff;
         --bg-tabs: #ffffff;
         --bg-toggle: #e4e5e6;
@@ -97,6 +99,7 @@
         /* --color-table-foot: rgba(78, 78, 78, 0.66); */
         /* --color-table-head: rgba(78, 78, 78, 0.8); */
         --color-text: rgba(78, 78, 78, 0.8); /* 1 */
+        --color-text-hover: rgba(78, 78, 78, 1); /* 1 */
         --opacity-gray: 0.75;
       }
 
